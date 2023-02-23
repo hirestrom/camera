@@ -1,0 +1,406 @@
+.mobile-only {
+    display: none;
+}
+.qtyDropdown-mobile {
+    display: none;
+}
+.other-buying-options {
+    display: none;
+}
+.detail_stock_box {
+    display: none;
+}
+.Configuration_box h5 {
+    display: none;
+}
+.detail_bundle {
+    display: none;
+}
+.tab_section .nav.nav-pills .tab-icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body, html {
+        overflow-x: hidden;
+    }
+    .key-feature_box, .key_more_details {
+        display: none;
+    }
+    .product-media .slider-nav {
+        display: none;
+    }
+    .product-media .slider-for {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .product-media .slider-for .slick-slide img {
+        height: 240px;
+        object-fit: contain;
+    }
+    .product_right_side_box .instock {
+        display: none;
+    }        
+    .price_product {
+        font-size: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-only {
+        display: block;
+        font-weight: normal;
+    }
+    .mobile-bg {
+        display: flex;
+        flex-direction: column;
+        background: #f0f0f0;
+        padding: 15px 0;
+        margin: 15px 0 5px 0;
+        position: relative;
+    }
+    
+    .mobile-bg::after {
+        content: "";
+        width: 120%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f0f0f0;
+        z-index: -1;
+    }
+    .view_cart_box button.btn_wish_list {
+        display: none;
+    }
+    
+    .view_cart_box p {
+        display: none;
+    }
+    .btn_view_cart {
+        width: 100%;
+        color: #FFFFFF;
+        border: none;
+    }
+    .view_cart_box {
+        padding: 0;
+    }
+    .qtyDropdown-mobile p {
+        display: block;
+        margin: 0;
+    }
+    .carts_buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #E52727;
+        color: #fff;
+        border: 0.0625rem solid #E52727;
+        border-radius: 0.25rem;
+        padding: 0 10px;
+    }
+    .qtyDropdown-mobile p {
+        display: block;
+    }
+    
+    .qtyDropdown-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 3px;
+        border-right: 1px solid #FFFFFF;
+        padding: 0px 10px;
+    }
+    
+    .qtyDropdown-mobile select {
+        background: transparent;
+        color: #FFF;
+        border: none;
+    }
+    .qtyDropdown-mobile select option {
+        color: #000;
+    }
+    .Protect_your_Gear {
+        display: none;
+    }
+    .other-buying-options {
+        display: block;
+        padding: 5px 0;
+        background-color: #f0f0f0;
+        font-size: 13px;
+        position: relative;
+    }
+    .other-buying-options::after {
+        content: "";
+        width: 120%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f0f0f0;
+        z-index: -1;
+    }
+    .other-buying-options .title {
+        color: #999;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    .options-container a {
+        color: #000000;
+    }
+    .other-buying-options .options-container .alternate-price {
+        color: #E52727;
+        font-weight: 600;
+    }
+
+    .detail_stock_box {
+        display: block;
+        margin: 20px 0 40px;
+    }
+    .stock_message_section {
+        color: #E52727;
+        margin-bottom: 10px;
+    }
+    #rating_section ul {
+        display: flex;
+        gap: 20px;
+    }
+    .shipping_info_section span {
+        width: 15px;
+        display: inline-block;
+        height: 15px;
+        font-size: 12px;
+        text-align: center;
+        border: 1px solid #000;
+        line-height: 15px;
+        border-radius: 50%;
+        margin-left: 3px;
+    }
+    
+    .shipping_info_section .stock-separator {
+        margin-bottom: 10px;
+    }
+    .style_box select {
+        width: 100%;
+    }
+    .Configuration_box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        float: none;
+    }
+    .Configuration_box h5 {
+        display: block;
+        color: #333;
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.1875rem;
+        margin-bottom: 0;
+    }
+    .saving_available_box {
+        display: none;
+    }
+    .style_Configuration_box {
+        clear: both;
+    } 
+    .detail_bundle {
+        display: block;
+        padding: 20px 0 40px;
+    }
+    
+    .detail_bundle a {
+        font-size: 14px;
+        color: #333333;
+        font-weight: normal;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
+    .detail_bundle a p {
+        margin: 0;
+    }
+    
+    .detail_bundle a p span.bold {
+        font-weight: 500;
+    }
+    
+    .detail_bundle a.right {
+        text-align: right;
+        display: inline-block;
+        float: right;
+    }
+
+    .ask_your_expert_box .expert_img {
+        display: none;
+    }
+    
+    .ask_your_expert_box .expert_details {
+        width: 100%;
+    }
+    
+    .ask_your_expert_box {
+        padding: 15px 0;
+        background-color: #f0f0f0;
+        position: relative;
+    }
+    .ask_your_expert_box::after {
+        content: "";
+        width: 120%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f0f0f0;
+        z-index: -1;
+    }
+    .ask_your_expert_box .expert_details ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ask_your_expert_box .expert_details ul li::after {
+        position: absolute;
+        content: '';
+        height: 15px;
+        width: 1px;
+        background-color: #000;
+        left: -80px;
+        top: 2px;
+    }
+    .ask_your_expert_box .expert_details h5 {
+        font-weight: normal;
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+
+
+    .recommended_accessories {
+        display: none;
+    }
+    .tab_section .nav.nav-pills {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        position: unset;
+        padding: 0 !important;
+        gap: 20px;    
+    }
+    
+    .tab_section .tab-nav {
+        background-color: #f0f0f0;
+        position: relative;
+    }
+    .tab_section .tab-nav::after {
+        content: "";
+        width: 120%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f0f0f0;
+        border-bottom: 1px solid grey;
+    }
+
+    .tab_section .nav.nav-pills .tab-icon {
+        display: block;
+    }
+    .tab_section .nav-link {
+        background: transparent !important;
+        border: none !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2.5;
+        color: grey !important;
+        margin: 0 !important;
+        padding: 0 20px;
+        border-radius: 0;
+    }
+    .tab_section .nav.nav-pills .tab-icon {
+        display: inline-block;
+        height: 25px;
+        font-size: 16px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .tab_section .nav-link.active {
+        background-color: grey !important;
+    }
+    .tab-content {
+        padding-top: 30px;
+    }
+    .tab_section h2 {
+        font-size: 22px;
+        margin: 0 0 10px;
+    }
+    .tab_section h4 {
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .tab_section p {
+        font-size: 13px;
+        margin: 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .price_product {
+        font-size: 22px;
+    }
+    .product_heading_name ul {
+        display: none;
+    }
+    .product_heading_name h2 {
+        font-size: 20px;
+    }
+    .stock_message_section {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .shipping_info_section .stock-separator {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    #rating_section ul {
+        gap: 15px;
+    }
+    #rating_section ul li a {
+        font-size: 12px;
+    }
+    
+    .Configuration_box h5 {
+        width: 100%;
+    }
+    .detail_bundle a p.light {
+        font-size: 12px;
+    }
+    .Configuration_box {
+        flex-wrap: wrap;
+    }
+    .Configuration_box ul li {
+        margin: 0;
+    }
+    .Configuration_box ul li a {
+        font-size: 13px;
+    }
+    .Configuration_box ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .ask_your_expert_box .expert_details ul li::after {
+        left: -15px;
+        display: block;
+    }
+    .ask_your_expert_box .expert_details ul a,.ask_your_expert_box .expert_details ul li     {
+        font-size: 12px;
+    }
+    
+}
